@@ -1,17 +1,22 @@
-object Form1: TForm1
-  Left = 0
-  Top = 0
-  Caption = 'Form1'
-  ClientHeight = 441
-  ClientWidth = 682
+object fFormulario: TfFormulario
+  Left = 192
+  Top = 125
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Exemplo de Fa'#231'ade - Andr'#233' Celestino'
+  ClientHeight = 433
+  ClientWidth = 681
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -12
-  Font.Name = 'Segoe UI'
+  Font.Height = -11
+  Font.Name = 'Tahoma'
   Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
   PixelsPerInch = 96
-  TextHeight = 15
+  TextHeight = 13
   object LabelCliente: TLabel
     Left = 8
     Top = 4
@@ -26,7 +31,7 @@ object Form1: TForm1
     ParentFont = False
   end
   object LabelProduto: TLabel
-    Left = 354
+    Left = 352
     Top = 4
     Width = 126
     Height = 13
@@ -53,7 +58,7 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object btnCalcularValorDaVenda: TBitBtn
+  object BitBtnCalcularValorDaVenda: TBitBtn
     Left = 247
     Top = 122
     Width = 187
@@ -117,7 +122,7 @@ object Form1: TForm1
       FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
       00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF}
     TabOrder = 0
-    OnClick = btnCalcularValorDaVendaClick
+    OnClick = BitBtnCalcularValorDaVendaClick
   end
   object DBGridClientes: TDBGrid
     Left = 8
@@ -130,8 +135,8 @@ object Form1: TForm1
     TabOrder = 1
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
-    TitleFont.Height = -12
-    TitleFont.Name = 'Segoe UI'
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
     Columns = <
       item
@@ -157,8 +162,8 @@ object Form1: TForm1
       end>
   end
   object DBGridProdutos: TDBGrid
-    Left = 348
-    Top = 20
+    Left = 353
+    Top = 23
     Width = 320
     Height = 93
     DataSource = DataSourceProdutos
@@ -167,8 +172,8 @@ object Form1: TForm1
     TabOrder = 2
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
-    TitleFont.Height = -12
-    TitleFont.Name = 'Segoe UI'
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
     Columns = <
       item
@@ -194,9 +199,9 @@ object Form1: TForm1
         Visible = True
       end>
   end
-  object memHistorico: TMemo
+  object Memo: TMemo
     Left = 142
-    Top = 188
+    Top = 187
     Width = 397
     Height = 237
     Font.Charset = DEFAULT_CHARSET
@@ -228,6 +233,7 @@ object Form1: TForm1
     end
     object ClientDataSetClientesFidelidade: TSmallintField
       FieldName = 'Fidelidade'
+      OnGetText = ClientDataSetClientesFidelidadeGetText
     end
   end
   object ClientDataSetProdutos: TClientDataSet

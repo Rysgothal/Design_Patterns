@@ -7,7 +7,6 @@ uses
   Dialogs, StdCtrls, Buttons, AppEvnts, Decorator.Classes.DecoratorVersaoWin;
 
 type
-  { Client }
   TfrmPrincipal = class(TForm)
     gbxLog: TGroupBox;
     cbxDataHora: TCheckBox;

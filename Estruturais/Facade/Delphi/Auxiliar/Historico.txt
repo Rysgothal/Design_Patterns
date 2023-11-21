@@ -1,0 +1,7 @@
+Data/Hora.........: 21/11/2023 - 13:01:13
+Cotação do Dólar..: 4,88
+Conversão em R$...: 0,00
+Fidelidade........: Desconto de 2%
+Margem de venda...: 35%
+Preço final.......: 0,00
+

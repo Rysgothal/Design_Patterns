@@ -1,11 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/11/21 09:00:24.039,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/11/21 09:00:54.164,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Forms\Façade.Forms.Principal.dfm=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/11/21 09:00:54.164,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Forms\Façade.Forms.Principal.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/11/21 09:01:03.773,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Façade.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2023/11/21 09:03:19.693,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Unit1.pas</Transaction>
-    <Transaction>2023/11/21 09:04:55.753,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Classes\Façade.Classes.SubSystemCotacaoDolar.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Unit1.pas</Transaction>
+	<Transactions>
+    <Transaction>2023/11/21 09:00:24.000.039,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/21 09:00:54.000.164,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Forms\Façade.Forms.Principal.pas</Transaction>
+    <Transaction>2023/11/21 09:00:54.000.164,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Forms\Façade.Forms.Principal.dfm</Transaction>
+    <Transaction>2023/11/21 09:01:03.000.773,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Façade.dproj</Transaction>
+    <Transaction>2023/11/21 09:03:19.000.693,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Unit1.pas</Transaction>
+    <Transaction>2023/11/21 09:04:55.000.753,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Unit1.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Façade\Classes\Façade.Classes.SubSystemCotacaoDolar.pas</Transaction>
+    <Transaction>2023/11/21 12:29:04.000.873,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Classes\Façade.Classes.WSDL_BCB.pas</Transaction>
+    <Transaction>2023/11/21 12:35:27.000.607,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/21 12:36:29.000.652,D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Unit1.pas=D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Classes\Façade.Classes.SubSystemCalculoLoja.pas</Transaction>
+    <Transaction>2023/11/21 12:44:40.055,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/21 12:44:53.410,D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Classes\Façade.Classes.SubSystemHistorico.pas=D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/21 12:50:53.263,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/21 12:51:58.661,D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Classes\Façade.Classes.Facade.pas=D:\GitHub_Lucas\Design_Patterns\Estruturais\Facade\Delphi\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
