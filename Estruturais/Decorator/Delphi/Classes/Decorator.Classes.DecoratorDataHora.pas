@@ -8,7 +8,7 @@ uses
 type
   TDataHoraDecorator = class(TDecorator)
   protected
-    function ObterDadosExcecao: string;
+    function ObterDadosExcecao: string; override;
   end;
 
 implementation
@@ -20,7 +20,7 @@ uses
 
 function TDataHoraDecorator.ObterDadosExcecao: string;
 begin
-  Result := inherited + ObterDadosExcecao;
+  Result := LogExcecao.ObterDadosExcecao;
   Result := Result + 'Data/Hora: ' + FormatDateTime('dd/mm/yyyy hh:nn:ss', Now);
 end;
 

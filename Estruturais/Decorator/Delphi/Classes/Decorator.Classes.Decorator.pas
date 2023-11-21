@@ -9,10 +9,10 @@ type
   TDecorator = class(TInterfacedObject, ILogExcecao)
   protected
     FLogExcecao: ILogExcecao;
+    function ObterDadosExcecao: string; virtual;
   public
     property LogExcecao: ILogExcecao read FLogExcecao write FLogExcecao;
     constructor Create(pLogExcecao: ILogExcecao);
-    function ObterDadosExcecao: string;
   end;
 
 implementation

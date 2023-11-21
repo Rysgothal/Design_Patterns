@@ -16,14 +16,14 @@ object frmPrincipal: TfrmPrincipal
   OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
-  object GroupBox: TGroupBox
+  object gbxLog: TGroupBox
     Left = 7
     Top = 8
     Width = 380
     Height = 65
     Caption = 'Op'#231#245'es do log: '
     TabOrder = 0
-    object CheckBoxDataHora: TCheckBox
+    object cbxDataHora: TCheckBox
       Left = 8
       Top = 32
       Width = 97
@@ -31,7 +31,7 @@ object frmPrincipal: TfrmPrincipal
       Caption = 'Data e Hora'
       TabOrder = 0
     end
-    object CheckBoxNomeUsuario: TCheckBox
+    object cbxNomeUsuario: TCheckBox
       Left = 120
       Top = 32
       Width = 105
@@ -39,7 +39,7 @@ object frmPrincipal: TfrmPrincipal
       Caption = 'Nome do Usu'#225'rio'
       TabOrder = 1
     end
-    object CheckBoxVersaoWindows: TCheckBox
+    object cbxVersaoWindows: TCheckBox
       Left = 248
       Top = 32
       Width = 116
@@ -48,16 +48,16 @@ object frmPrincipal: TfrmPrincipal
       TabOrder = 2
     end
   end
-  object BitBtnGerarExcecao: TBitBtn
+  object btnGerarExcecao: TBitBtn
     Left = 111
     Top = 80
     Width = 150
     Height = 25
     Caption = 'Gerar Exce'#231#227'o'
     TabOrder = 1
-    OnClick = BitBtnGerarExcecaoClick
+    OnClick = btnGerarExcecaoClick
   end
-  object Memo: TMemo
+  object memPrincipal: TMemo
     Left = 7
     Top = 112
     Width = 380

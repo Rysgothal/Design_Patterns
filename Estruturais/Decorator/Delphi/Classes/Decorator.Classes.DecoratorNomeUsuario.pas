@@ -10,7 +10,7 @@ type
   private
     function ObterNomeUsuario: string;
   protected
-    function ObterDadosExcecao: string;
+    function ObterDadosExcecao: string; override;
   end;
 
 implementation

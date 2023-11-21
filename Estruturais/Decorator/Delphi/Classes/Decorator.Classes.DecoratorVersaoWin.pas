@@ -10,7 +10,7 @@ type
   private
     function ObterVersaoWindows: string;
   protected
-    function ObterDadosExcecao: string;
+    function ObterDadosExcecao: string; override;
   end;
 
 implementation
