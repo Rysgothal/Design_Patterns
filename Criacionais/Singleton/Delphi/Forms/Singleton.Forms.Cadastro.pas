@@ -51,16 +51,18 @@ end;
 
 procedure TfrmCadastro.FormCreate(Sender: TObject);
 var
-  lDiretorioAplicacao: string;
+  lDiretorio: string;
 begin
-  lDiretorioAplicacao := ExtractFilePath(Application.ExeName);
+  lDiretorio := ExtractFileDir(Application.ExeName);
+  lDiretorio := ExtractFileDir(ExtractFileDir(lDiretorio));
+  lDiretorio := lDiretorio + '\Auxiliar\Participantes.xml';
 
-  if not FileExists(lDiretorioAplicacao + 'Participantes.xml') then
+  if not FileExists(lDiretorio) then
   begin
     Exit;
   end;
 
-  ClientDataSet.LoadFromFile(lDiretorioAplicacao + 'Participantes.xml');
+  ClientDataSet.LoadFromFile(lDiretorio);
   ClientDataSet.LogChanges := False;
 end;
 
@@ -71,10 +73,13 @@ end;
 
 procedure TfrmCadastro.FormClose(Sender: TObject; var Action: TCloseAction);
 var
-  lDiretorioAplicacao: string;
+  lDiretorio: string;
 begin
-  lDiretorioAplicacao := ExtractFilePath(Application.ExeName);
-  ClientDataSet.SaveToFile(lDiretorioAplicacao + 'Participantes.xml');
+  lDiretorio := ExtractFileDir(Application.ExeName);
+  lDiretorio := ExtractFileDir(ExtractFileDir(lDiretorio));
+  lDiretorio := lDiretorio + '\Auxiliar\Participantes.xml';
+
+  ClientDataSet.SaveToFile(lDiretorio);
 end;
 
 procedure TfrmCadastro.ClientDataSetAfterPost(DataSet: TDataSet);
