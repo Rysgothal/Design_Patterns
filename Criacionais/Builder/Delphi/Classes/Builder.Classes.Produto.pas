@@ -31,7 +31,7 @@ end;
 
 constructor TProduto.Create;
 begin
-  ConteudoHTML := TStringList.Create;
+  FConteudoHTML := TStringList.Create;
 end;
 
 destructor TProduto.Destroy;
@@ -55,7 +55,7 @@ begin
       Exit;
     end;
 
-    ConteudoHTML.SaveToFile(lSalvar.FileName);
+    ConteudoHTML.SaveToFile(lSalvar.FileName, TEncoding.UTF8);
   finally
     FreeAndNil(lSalvar);
   end;

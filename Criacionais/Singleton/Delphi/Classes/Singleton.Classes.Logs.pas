@@ -28,7 +28,7 @@ constructor TLoggerSingleton.Create;
 var
   lDiretorioAplicacao: string;
 begin
-  lDiretorioAplicacao := ExtractFilePath(Application.ExeName);
+  lDiretorioAplicacao := ExtractFileDir(Application.ExeName);
   AssignFile(ArquivoLog, lDiretorioAplicacao + 'Log.txt');
 
   if not FileExists(lDiretorioAplicacao + 'Log.txt') then

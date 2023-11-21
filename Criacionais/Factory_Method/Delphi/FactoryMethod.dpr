@@ -2,7 +2,7 @@ program FactoryMethod;
 
 uses
   Vcl.Forms,
-  FactoryMethod.Forms.Principal in 'Forms\FactoryMethod.Forms.Principal.pas' {Form1},
+  FactoryMethod.Forms.Principal in 'Forms\FactoryMethod.Forms.Principal.pas' {frmPrincipal},
   FactoryMethod.Interfaces.Produto in 'Interfaces\FactoryMethod.Interfaces.Produto.pas',
   FactoryMethod.Classes.ProdutoConcreto in 'Classes\FactoryMethod.Classes.ProdutoConcreto.pas',
   FactoryMethod.Classes.CriadorConcreto in 'Classes\FactoryMethod.Classes.CriadorConcreto.pas',
@@ -13,6 +13,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
   Application.Run;
 end.

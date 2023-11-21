@@ -34,8 +34,10 @@ procedure TfrmPrincipal.BitBtnAbrirLogClick(Sender: TObject);
 var
   lDiretorioAplicacao: string;
 begin
-  lDiretorioAplicacao := ExtractFilePath(Application.ExeName);
-  ShellExecute(Handle, 'open', PWideChar(lDiretorioAplicacao + 'Log.txt'), nil, nil, SW_SHOWNORMAL);
+  lDiretorioAplicacao := ExtractFileDir(Application.ExeName);
+  lDiretorioAplicacao := ExtractFileDir(ExtractFileDir(lDiretorioAplicacao));
+  lDiretorioAplicacao := lDiretorioAplicacao + '\Auxiliar\Log.txt';
+  ShellExecute(Handle, 'open', PWideChar(lDiretorioAplicacao), nil, nil, SW_SHOWNORMAL);
 end;
 
 procedure TfrmPrincipal.FormClose(Sender: TObject; var Action: TCloseAction);

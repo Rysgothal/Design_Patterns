@@ -1,4 +1,4 @@
-object fFormulario: TfFormulario
+object frmPrincipal: TfrmPrincipal
   Left = 193
   Top = 125
   BorderIcons = [biSystemMenu, biMinimize]

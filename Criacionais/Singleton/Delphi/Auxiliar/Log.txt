@@ -1,0 +1,50 @@
+[17/11/2023 15:32:16] Usuário iniciou a aplicação.
+[17/11/2023 15:32:36] Usuário iniciou a aplicação.
+[17/11/2023 15:32:37] Usuário abriu a tela de Cadastro de Participantes.
+[17/11/2023 15:32:48] Participante "Carlos" cadastrado.
+[17/11/2023 15:32:57] Participante "Joelma" cadastrado.
+[17/11/2023 15:32:58] Usuário abriu a tela de Sorteio.
+[17/11/2023 15:33:00] Participante sorteado: Carlos
+[17/11/2023 15:33:17] Usuário iniciou a aplicação.
+[17/11/2023 15:33:20] Usuário iniciou a aplicação.
+[17/11/2023 15:39:16] Usuário iniciou a aplicação.
+[17/11/2023 15:39:17] Usuário abriu a tela de Cadastro de Participantes.
+[17/11/2023 15:39:19] Participante "Carlos" removido.
+[17/11/2023 15:39:20] Participante "Joelma" removido.
+[17/11/2023 15:39:28] Participante "Marcos" cadastrado.
+[17/11/2023 15:39:31] Participante "Julia" cadastrado.
+[17/11/2023 15:39:35] Participante "Matheus" cadastrado.
+[17/11/2023 15:39:37] Participante "Jorge" cadastrado.
+[17/11/2023 15:39:42] Participante "Bruna" cadastrado.
+[17/11/2023 15:39:44] Participante "Gabriela" cadastrado.
+[17/11/2023 15:39:47] Participante "Lucas" cadastrado.
+[17/11/2023 15:39:48] Usuário abriu a tela de Sorteio.
+[17/11/2023 15:39:50] Participante sorteado: Marcos
+[17/11/2023 15:39:50] Participante sorteado: Marcos
+[17/11/2023 15:39:51] Participante sorteado: Bruna
+[17/11/2023 15:39:51] Participante sorteado: Jorge
+[17/11/2023 15:39:52] Participante sorteado: Matheus
+[17/11/2023 15:39:53] Participante sorteado: Marcos
+[17/11/2023 15:39:53] Participante sorteado: Jorge
+[17/11/2023 15:39:53] Participante sorteado: Marcos
+[17/11/2023 15:39:54] Participante sorteado: Gabriela
+[17/11/2023 15:39:54] Participante sorteado: Julia
+[17/11/2023 15:39:54] Participante sorteado: Jorge
+[17/11/2023 15:39:55] Participante sorteado: Marcos
+[17/11/2023 15:40:11] Usuário fechou a aplicação.
+[20/11/2023 16:37:27] Usuário iniciou a aplicação.
+[20/11/2023 16:37:33] Usuário abriu a tela de Cadastro de Participantes.
+[20/11/2023 16:37:35] Usuário abriu a tela de Sorteio.
+[20/11/2023 16:37:40] Usuário abriu a tela de Sorteio.
+[20/11/2023 16:37:40] Participante sorteado: Marcos
+[20/11/2023 16:37:41] Participante sorteado: Matheus
+[20/11/2023 16:37:41] Participante sorteado: Bruna
+[20/11/2023 16:37:41] Participante sorteado: Gabriela
+[20/11/2023 16:37:41] Participante sorteado: Marcos
+[20/11/2023 16:37:42] Usuário abriu a tela de Cadastro de Participantes.
+[20/11/2023 16:37:49] Usuário fechou a aplicação.
+[21/11/2023 10:47:13] Usuário iniciou a aplicação.
+[21/11/2023 10:47:14] Usuário fechou a aplicação.
+[21/11/2023 10:47:31] Usuário iniciou a aplicação.
+[21/11/2023 10:47:45] Usuário iniciou a aplicação.
+[21/11/2023 10:48:03] Usuário iniciou a aplicação.

@@ -8,16 +8,16 @@ uses
   FactoryMethod.Interfaces.Produto;
 
 type
-  TForm1 = class(TForm)
-    LabelValor: TLabel;
-    LabelPrazoPagamento: TLabel;
-    LabelQtdeParcelas: TLabel;
-    ComboBoxPrazoPagamento: TComboBox;
-    EditValor: TEdit;
-    BitBtnGerarProjecao: TBitBtn;
-    Memo: TMemo;
-    EditQtdeParcelas: TEdit;
-    procedure BitBtnGerarProjecaoClick(Sender: TObject);
+  TfrmPrincipal = class(TForm)
+    lblValor: TLabel;
+    lblPrazoPagamento: TLabel;
+    lblQtdeParcelas: TLabel;
+    cbxPrazoPagamento: TComboBox;
+    edtValor: TEdit;
+    BtnGerarProjecao: TBitBtn;
+    memPrincipal: TMemo;
+    edtQtdeParcelas: TEdit;
+    procedure BtnGerarProjecaoClick(Sender: TObject);
   private
     procedure GerarProjecao;
     procedure MostrarProjecoes(lTipoPrazo: ITipoPrazo; lValor: Real; lQtdeParcelas: Integer);
@@ -27,7 +27,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmPrincipal: TfrmPrincipal;
 
 implementation
 
@@ -37,40 +37,40 @@ uses
 
 {$R *.dfm}
 
-procedure TForm1.BitBtnGerarProjecaoClick(Sender: TObject);
+procedure TfrmPrincipal.BtnGerarProjecaoClick(Sender: TObject);
 begin
   GerarProjecao;
 end;
 
-procedure TForm1.GerarProjecao;
+procedure TfrmPrincipal.GerarProjecao;
 var
   lFabricaPrazos: TFabricaPrazos;
   lTipoPrazo: ITipoPrazo;
   lValor: Real;
   lQtdeParcelas: Integer;
 begin
-  if ComboBoxPrazoPagamento.ItemIndex < 0 then
+  if cbxPrazoPagamento.ItemIndex < 0 then
   begin
     Application.MessageBox('Selecione o prazo de pagamento.', 'Atenção', MB_OK + MB_ICONINFORMATION);
-    ComboBoxPrazoPagamento.DroppedDown := True;
+    cbxPrazoPagamento.DroppedDown := True;
     Exit;
   end;
   
   lFabricaPrazos := TFabricaPrazos.Create;
-  lTipoPrazo := lFabricaPrazos.ConsultarPrazo(TModoPrazo(ComboBoxPrazoPagamento.ItemIndex));
-  lValor := StrToFloatDef(EditValor.Text, 0);
-  lQtdeParcelas := StrToIntDef(EditQtdeParcelas.Text, 0);
+  lTipoPrazo := lFabricaPrazos.ConsultarPrazo(TModoPrazo(cbxPrazoPagamento.ItemIndex));
+  lValor := StrToFloatDef(edtValor.Text, 0);
+  lQtdeParcelas := StrToIntDef(edtQtdeParcelas.Text, 0);
   
   MostrarProjecoes(lTipoPrazo, lValor, lQtdeParcelas);
 end;
 
-procedure TForm1.MostrarProjecoes(lTipoPrazo: ITipoPrazo; lValor: Real; lQtdeParcelas: Integer);
+procedure TfrmPrincipal.MostrarProjecoes(lTipoPrazo: ITipoPrazo; lValor: Real; lQtdeParcelas: Integer);
 begin
-  Memo.Lines.Clear;
-  Memo.Lines.Add(lTipoPrazo.ConsultarDescricao);
-  Memo.Lines.Add(lTipoPrazo.ConsultarJuros);
-  Memo.Lines.Add(lTipoPrazo.ConsultarProjecao(lValor, lQtdeParcelas));
-  Memo.Lines.Add(lTipoPrazo.ConsultarTotal);
+  memPrincipal.Lines.Clear;
+  memPrincipal.Lines.Add(lTipoPrazo.ConsultarDescricao);
+  memPrincipal.Lines.Add(lTipoPrazo.ConsultarJuros);
+  memPrincipal.Lines.Add(lTipoPrazo.ConsultarProjecao(lValor, lQtdeParcelas));
+  memPrincipal.Lines.Add(lTipoPrazo.ConsultarTotal);
 end;
 
 end.

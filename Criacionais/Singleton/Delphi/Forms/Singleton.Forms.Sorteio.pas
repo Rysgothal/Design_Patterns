@@ -42,16 +42,18 @@ end;
 
 procedure TfrmSorteio.PreencherParticipantes;
 var
-  lDiretorioAplicacao: string;
+  lDiretorio: string;
 begin
-  lDiretorioAplicacao := ExtractFilePath(Application.ExeName);
+  lDiretorio := ExtractFileDir(Application.ExeName);
+  lDiretorio := ExtractFileDir(ExtractFileDir(lDiretorio));
+  lDiretorio := lDiretorio + '\Auxiliar\Participantes.xml';
 
-  if not FileExists(lDiretorioAplicacao + 'Participantes.xml') then
+  if not FileExists(lDiretorio) then
   begin
     Exit;
   end;
 
-  ClientDataSet.LoadFromFile(lDiretorioAplicacao + 'Participantes.xml');
+  ClientDataSet.LoadFromFile(lDiretorio);
   ClientDataSet.First;
 
   while not ClientDataSet.Eof do
