@@ -90,9 +90,9 @@ end;
 
 constructor TBuilder.Create(pDados: olevariant);
 begin
-  QtdeRegistros := 0;
-  Dados := pDados;
-  Produto := Produto.Create;
+  FQtdeRegistros := 0;
+  FDados := pDados;
+  FProduto := TProduto.Create;
 end;
 
 destructor TBuilder.Destroy;

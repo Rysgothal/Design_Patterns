@@ -20,16 +20,16 @@ object frmPrincipal: TfrmPrincipal
     Height = 11
     Shape = bsTopLine
   end
-  object BitBtn1: TBitBtn
+  object btnGerarRelatorio: TBitBtn
     Left = 170
     Top = 270
     Width = 233
     Height = 25
     Caption = 'Gerar Relat'#243'rio de Fornecedores'
     TabOrder = 0
-    OnClick = BitBtn1Click
+    OnClick = btnGerarRelatorioClick
   end
-  object DBGrid: TDBGrid
+  object dbgPrincipal: TDBGrid
     Left = 9
     Top = 8
     Width = 555

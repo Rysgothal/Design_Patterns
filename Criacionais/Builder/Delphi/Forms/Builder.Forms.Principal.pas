@@ -10,11 +10,11 @@ uses
 type
   TfrmPrincipal = class(TForm)
     Bevel: TBevel;
-    BitBtn1: TBitBtn;
-    DBGrid: TDBGrid;
+    btnGerarRelatorio: TBitBtn;
+    dbgPrincipal: TDBGrid;
     DataSource: TDataSource;
     ClientDataSet: TClientDataSet;
-    procedure BitBtn1Click(Sender: TObject);
+    procedure btnGerarRelatorioClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
@@ -28,14 +28,15 @@ var
 implementation
 
 uses
-  Builder.Classes.Diretor, Builder.Classes.Produto, Builder.Classes.Builder;
+  Builder.Classes.Diretor, Builder.Classes.Produto, Builder.Classes.Builder,
+  Builder.Interfaces.Builder;
 
 {$R *.dfm}
 
-procedure TfrmPrincipal.BitBtn1Click(Sender: TObject);
+procedure TfrmPrincipal.btnGerarRelatorioClick(Sender: TObject);
 var
   lDiretor: TDiretor;
-  lBuider: TBuilder;
+  lBuider: IBuilder;
   lProduto: TProduto;
 begin
   lDiretor := TDiretor.Create;
@@ -51,8 +52,14 @@ begin
 end;
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
+var
+  lDiretorioXML: string;
 begin
-  ClientDataSet.LoadFromFile(GetCurrentDir + '\vendors.xml');
+  lDiretorioXML := ExtractFileDir(GetCurrentDir);
+  lDiretorioXML := ExtractFileDir(lDiretorioXML);
+  lDiretorioXML := lDiretorioXML + '\Auxiliar\vendors.xml';
+
+  ClientDataSet.LoadFromFile(lDiretorioXML);
 end;
 
 end.
