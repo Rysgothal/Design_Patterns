@@ -67,7 +67,7 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object EditCidade: TEdit
+  object edtCidade: TEdit
     Left = 448
     Top = 57
     Width = 249
@@ -76,7 +76,7 @@ object frmPrincipal: TfrmPrincipal
     ReadOnly = True
     TabOrder = 5
   end
-  object EditBairro: TEdit
+  object edtBairro: TEdit
     Left = 448
     Top = 32
     Width = 249
@@ -103,7 +103,7 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 2
     OnClick = btnCorreiosClick
   end
-  object EditCEP: TMaskEdit
+  object edtCEP: TMaskEdit
     Left = 40
     Top = 33
     Width = 73
@@ -113,7 +113,7 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 0
     Text = ''
   end
-  object EditLogradouro: TEdit
+  object edtLogradouro: TEdit
     Left = 448
     Top = 6
     Width = 249

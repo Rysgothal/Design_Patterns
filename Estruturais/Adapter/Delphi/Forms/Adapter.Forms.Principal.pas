@@ -10,14 +10,14 @@ type
   TfrmPrincipal = class(TForm)
     lbCEP: TLabel;
     lbCidade: TLabel;
-    EditCidade: TEdit;
+    edtCidade: TEdit;
     lbBairro: TLabel;
-    EditBairro: TEdit;
+    edtBairro: TEdit;
     btnViaCEP: TBitBtn;
     btnCorreios: TBitBtn;
-    EditCEP: TMaskEdit;
+    edtCEP: TMaskEdit;
     lbLogradouro: TLabel;
-    EditLogradouro: TEdit;
+    edtLogradouro: TEdit;
     procedure btnViaCEPClick(Sender: TObject);
     procedure btnCorreiosClick(Sender: TObject);
   private
@@ -54,11 +54,11 @@ begin
   lRetorno := TStringList.Create;
 
   try
-    lRetorno := lComunicador.ConsultarEndereco(EditCEP.Text);
+    lRetorno := lComunicador.ConsultarEndereco(edtCEP.Text);
 
-    EditLogradouro.Text := lRetorno.Values['Logradouro'];
-    EditBairro.Text := lRetorno.Values['Bairro'];
-    EditCidade.Text := lRetorno.Values['Cidade'];
+    edtLogradouro.Text := lRetorno.Values['Logradouro'];
+    edtBairro.Text := lRetorno.Values['Bairro'];
+    edtCidade.Text := lRetorno.Values['Cidade'];
   finally
     FreeAndNil(lRetorno);
     FreeAndNil(lComunicador);
@@ -85,15 +85,15 @@ begin
   Retorno := TStringList.Create;
   try
     try
-      Retorno := Comunicador.ConsultarEndereco(EditCEP.Text);
+      Retorno := Comunicador.ConsultarEndereco(edtCEP.Text);
 
-      EditLogradouro.Text := Retorno.Values['Logradouro'];
-      EditBairro.Text := Retorno.Values['Bairro'];
-      EditCidade.Text := Retorno.Values['Cidade'];
+      edtLogradouro.Text := Retorno.Values['Logradouro'];
+      edtBairro.Text := Retorno.Values['Bairro'];
+      edtCidade.Text := Retorno.Values['Cidade'];
     except
-      EditLogradouro.Clear;
-      EditBairro.Clear;
-      EditCidade.Clear;
+      edtLogradouro.Clear;
+      edtBairro.Clear;
+      edtCidade.Clear;
     end;
   finally
     FreeAndNil(Retorno);
@@ -105,19 +105,19 @@ function TfrmPrincipal.ValidarCEP: boolean;
 begin
   Result := True;
 
-  if Length(EditCEP.Text) < 8 then
+  if Length(edtCEP.Text) < 8 then
   begin
     Application.MessageBox('Digite o CEP corretamente.', 'Atenção', MB_OK + MB_ICONINFORMATION);
-    EditCEP.SetFocus;
+    edtCEP.SetFocus;
     Result := False;
   end;
 end;
 
 procedure TfrmPrincipal.IndicarStatusDeProcessamento;
 begin
-  EditLogradouro.Text := 'Aguarde...';
-  EditBairro.Text := 'Aguarde...';
-  EditCidade.Text := 'Aguarde...';
+  edtLogradouro.Text := 'Aguarde...';
+  edtBairro.Text := 'Aguarde...';
+  edtCidade.Text := 'Aguarde...';
 
   Application.ProcessMessages;
 end;

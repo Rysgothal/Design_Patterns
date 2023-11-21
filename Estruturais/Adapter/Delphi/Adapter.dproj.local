@@ -2,19 +2,19 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2023/11/17 15:43:18.000.165,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/11/17 15:43:54.000.513,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Forms\Adapter.Forms.Principal.dfm=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/11/17 15:43:54.000.513,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Forms\Adapter.Forms.Principal.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/11/17 15:52:02.000.105,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Adapter.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/11/17 15:43:54.000.513,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Forms\Adapter.Forms.Principal.dfm</Transaction>
+    <Transaction>2023/11/17 15:43:54.000.513,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Forms\Adapter.Forms.Principal.pas</Transaction>
+    <Transaction>2023/11/17 15:52:02.000.105,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Adapter.dproj</Transaction>
     <Transaction>2023/11/17 15:52:08.000.177,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Unit1.pas</Transaction>
-    <Transaction>2023/11/17 15:52:56.000.915,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Interfaces\Adapter.Interfaces.WebService.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Unit1.pas</Transaction>
+    <Transaction>2023/11/17 15:52:56.000.915,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Unit1.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Interfaces\Adapter.Interfaces.WebService.pas</Transaction>
     <Transaction>2023/11/17 15:54:38.000.866,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Unit1.pas</Transaction>
-    <Transaction>2023/11/17 15:55:07.000.562,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.WebService.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Unit1.pas</Transaction>
+    <Transaction>2023/11/17 15:55:07.000.562,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Unit1.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.WebService.pas</Transaction>
     <Transaction>2023/11/17 16:04:37.000.767,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Unit1.pas</Transaction>
-    <Transaction>2023/11/17 16:39:06.000.770,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.Adapter.pas</Transaction>
     <Transaction>2023/11/17 16:39:06.000.812,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.WebServiceViaCEP.pas</Transaction>
-    <Transaction>2023/11/17 16:39:06.000.783,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.Comunicador.pas</Transaction>
-    <Transaction>2023/11/17 16:39:06.000.795,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.WebServiceCorreios.pas</Transaction>
     <Transaction>2023/11/17 16:39:06.000.806,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.WebServiceDL_Correios.pas</Transaction>
+    <Transaction>2023/11/17 16:39:06.000.795,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.WebServiceCorreios.pas</Transaction>
+    <Transaction>2023/11/17 16:39:06.000.783,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.Comunicador.pas</Transaction>
+    <Transaction>2023/11/17 16:39:06.000.770,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.Adapter.pas</Transaction>
     <Transaction>2023/11/17 16:48:07.000.810,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Estruturais\Adapter\Classes\Adapter.Classes.WebService.pas=</Transaction>
   </Transactions>
 </BorlandProject>
