@@ -3,7 +3,7 @@ object frmPrincipal: TfrmPrincipal
   Top = 125
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = 'Exemplo de Decorator - Andr'#233' Celestino'
+  Caption = 'Decorator'
   ClientHeight = 305
   ClientWidth = 394
   Color = clBtnFace
