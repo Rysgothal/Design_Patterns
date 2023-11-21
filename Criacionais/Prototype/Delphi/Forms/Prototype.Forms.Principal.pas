@@ -8,8 +8,7 @@ uses
   Prototype.Classes.Principal, Prototype.Interfaces.Prototype;
 
 type
-  { Client }
-  TfFormulario = class(TForm)
+  TfrmPrincipal = class(TForm)
     BitBtnDuplicar: TBitBtn;
     BitBtnNova: TBitBtn;
     ColorBoxCategoria: TColorBox;
@@ -42,23 +41,23 @@ type
   end;
 
 var
-  fFormulario: TfFormulario;
+  frmPrincipal: TfrmPrincipal;
 
 implementation
 
 {$R *.dfm}
 
-procedure TfFormulario.EditNomeExit(Sender: TObject);
+procedure TfrmPrincipal.EditNomeExit(Sender: TObject);
 begin
   FReuniaoSelecionada.Nome := Trim(EditNome.Text);
 end;
 
-procedure TfFormulario.DateTimePickerDataExit(Sender: TObject);
+procedure TfrmPrincipal.DateTimePickerDataExit(Sender: TObject);
 begin
   FReuniaoSelecionada.Data := DateTimePickerData.Date;
 end;
 
-procedure TfFormulario.BitBtnDuplicarClick(Sender: TObject);
+procedure TfrmPrincipal.BitBtnDuplicarClick(Sender: TObject);
 var
   lReuniaoClone: IPrototype;
 begin
@@ -77,7 +76,7 @@ begin
   EditNome.SetFocus;
 end;
 
-procedure TfFormulario.BitBtnNovaClick(Sender: TObject);
+procedure TfrmPrincipal.BitBtnNovaClick(Sender: TObject);
 var
   lNovaReuniao: IPrototype;
 begin
@@ -90,38 +89,38 @@ begin
   EditNome.SetFocus;
 end;
 
-procedure TfFormulario.FormCreate(Sender: TObject);
+procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin
   FListaReunioes := TList<IPrototype>.Create;
 end;
 
-procedure TfFormulario.ListBoxClick(Sender: TObject);
+procedure TfrmPrincipal.ListBoxClick(Sender: TObject);
 begin
   PreencherDados;
 end;
 
-procedure TfFormulario.DateTimePickerHoraExit(Sender: TObject);
+procedure TfrmPrincipal.DateTimePickerHoraExit(Sender: TObject);
 begin
   FReuniaoSelecionada.Hora := DateTimePickerHora.Time;
 end;
 
-procedure TfFormulario.ColorBoxCategoriaExit(Sender: TObject);
+procedure TfrmPrincipal.ColorBoxCategoriaExit(Sender: TObject);
 begin
   FReuniaoSelecionada.Categoria := ColorBoxCategoria.Selected;
 end;
 
-procedure TfFormulario.MemoParticipantesExit(Sender: TObject);
+procedure TfrmPrincipal.MemoParticipantesExit(Sender: TObject);
 begin
   FReuniaoSelecionada.Participantes := MemoParticipantes.Text;
 end;
 
-procedure TfFormulario.AdicionarNovaReuniaoNaListBox;
+procedure TfrmPrincipal.AdicionarNovaReuniaoNaListBox;
 begin
   ListBox.Items.Add('Reunião #' + IntToStr(ListBox.Items.Count + 1));
   ListBox.ItemIndex := ListBox.Items.Count - 1;
 end;
 
-procedure TfFormulario.PreencherDados;
+procedure TfrmPrincipal.PreencherDados;
 begin
   FReuniaoSelecionada := FListaReunioes[ListBox.ItemIndex] as TReuniao;
 
