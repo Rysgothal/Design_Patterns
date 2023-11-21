@@ -16,23 +16,23 @@ object frmPrincipal: TfrmPrincipal
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
-  object LabelTotal: TLabel
+  object lblTotal: TLabel
     Left = 171
     Top = 215
     Width = 28
     Height = 13
     Caption = 'Total:'
   end
-  object BitBtnCalcular: TBitBtn
+  object btnCalcular: TBitBtn
     Left = 8
     Top = 208
     Width = 150
     Height = 25
     Caption = 'Calcular Total do Pacote'
     TabOrder = 1
-    OnClick = BitBtnCalcularClick
+    OnClick = btnCalcularClick
   end
-  object EditTotal: TEdit
+  object edtTotal: TEdit
     Left = 206
     Top = 211
     Width = 127
@@ -47,28 +47,28 @@ object frmPrincipal: TfrmPrincipal
     ReadOnly = True
     TabOrder = 2
   end
-  object GroupBoxAdicionarViagem: TGroupBox
+  object gbxAdicionarViagem: TGroupBox
     Left = 8
     Top = 8
     Width = 449
     Height = 193
     Caption = 'Personalizar pacote: '
     TabOrder = 0
-    object LabelOrigem: TLabel
+    object lblOrigem: TLabel
       Left = 8
       Top = 24
       Width = 38
       Height = 13
       Caption = 'Origem:'
     end
-    object LabelDestino: TLabel
+    object lblDestino: TLabel
       Left = 168
       Top = 24
       Width = 40
       Height = 13
       Caption = 'Destino:'
     end
-    object ComboBoxOrigem: TComboBox
+    object cbxOrigem: TComboBox
       Left = 8
       Top = 40
       Width = 145
@@ -76,7 +76,7 @@ object frmPrincipal: TfrmPrincipal
       Style = csDropDownList
       DropDownCount = 10
       TabOrder = 0
-      OnChange = ComboBoxOrigemChange
+      OnChange = cbxOrigemChange
       Items.Strings = (
         'S'#227'o Paulo'
         'Rio de Janeiro'
@@ -88,7 +88,7 @@ object frmPrincipal: TfrmPrincipal
         'Los Angeles'
         'Miami')
     end
-    object ComboBoxDestino: TComboBox
+    object cbxDestino: TComboBox
       Left = 168
       Top = 40
       Width = 145
@@ -107,16 +107,16 @@ object frmPrincipal: TfrmPrincipal
         'Los Angeles'
         'Miami')
     end
-    object BitBtnAdicionarViagem: TBitBtn
+    object btnAdicionarViagem: TBitBtn
       Left = 329
       Top = 35
       Width = 109
       Height = 25
       Caption = 'Adicionar Viagem'
       TabOrder = 2
-      OnClick = BitBtnAdicionarViagemClick
+      OnClick = btnAdicionarViagemClick
     end
-    object MemoViagens: TMemo
+    object memViagens: TMemo
       Left = 8
       Top = 74
       Width = 430

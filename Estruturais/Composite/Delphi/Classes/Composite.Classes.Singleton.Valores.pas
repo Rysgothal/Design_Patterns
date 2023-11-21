@@ -37,9 +37,14 @@ begin
 end;
 
 constructor TValoresSingleton.Create;
+var
+  lDiretorio: string;
 begin
+  lDiretorio := ExtractFileDir(Application.ExeName);
+  lDiretorio := ExtractFileDir(ExtractFileDir(lDiretorio)) + '\Auxiliar\TarifaViagens.xml';
+
   DataSet := TClientDataSet.Create(nil);
-  DataSet.LoadFromFile(ExtractFilePath(Application.ExeName) + 'TarifaViagens.xml');
+  DataSet.LoadFromFile(lDiretorio);
 end;
 
 destructor TValoresSingleton.Destroy;

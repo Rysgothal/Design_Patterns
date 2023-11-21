@@ -8,20 +8,20 @@ uses
 
 type
   TfrmPrincipal = class(TForm)
-    BitBtnCalcular: TBitBtn;
-    LabelTotal: TLabel;
-    EditTotal: TEdit;
-    GroupBoxAdicionarViagem: TGroupBox;
-    LabelOrigem: TLabel;
-    ComboBoxOrigem: TComboBox;
-    LabelDestino: TLabel;
-    ComboBoxDestino: TComboBox;
-    BitBtnAdicionarViagem: TBitBtn;
-    MemoViagens: TMemo;
+    btnCalcular: TBitBtn;
+    lblTotal: TLabel;
+    edtTotal: TEdit;
+    gbxAdicionarViagem: TGroupBox;
+    lblOrigem: TLabel;
+    cbxOrigem: TComboBox;
+    lblDestino: TLabel;
+    cbxDestino: TComboBox;
+    btnAdicionarViagem: TBitBtn;
+    memViagens: TMemo;
     procedure FormCreate(Sender: TObject);
-    procedure BitBtnAdicionarViagemClick(Sender: TObject);
-    procedure BitBtnCalcularClick(Sender: TObject);
-    procedure ComboBoxOrigemChange(Sender: TObject);
+    procedure btnAdicionarViagemClick(Sender: TObject);
+    procedure btnCalcularClick(Sender: TObject);
+    procedure cbxOrigemChange(Sender: TObject);
   private
     FPacoteViagem: TPacoteViagem;
   end;
@@ -41,36 +41,35 @@ begin
   FPacoteViagem := TPacoteViagem.Create;
 end;
 
-procedure TfrmPrincipal.BitBtnAdicionarViagemClick(Sender: TObject);
+procedure TfrmPrincipal.btnAdicionarViagemClick(Sender: TObject);
 var
-  Viagem: TViagem;
+  lViagem: TViagem;
 begin
-  MemoViagens.Lines.Add(Format('%s -> %s',
-    [ComboBoxOrigem.Text, ComboBoxDestino.Text]));
+  memViagens.Lines.Add(Format('%s -> %s', [cbxOrigem.Text, cbxDestino.Text]));
 
-  Viagem := TViagem.Create;
-  Viagem.DefinirOrigem(ComboBoxOrigem.Text);
-  Viagem.DefinirDestino(ComboBoxDestino.Text);
-  FPacoteViagem.AdicionarViagem(Viagem);
+  lViagem := TViagem.Create;
+  lViagem.DefinirOrigem(cbxOrigem.Text);
+  lViagem.DefinirDestino(cbxDestino.Text);
+  FPacoteViagem.AdicionarViagem(lViagem);
 
-  ComboBoxOrigem.ItemIndex := ComboBoxOrigem.Items.IndexOf(ComboBoxDestino.Text);
-  ComboBoxDestino.ItemIndex := -1;
-  ComboBoxDestino.SetFocus;
+  cbxOrigem.ItemIndex := cbxOrigem.Items.IndexOf(cbxDestino.Text);
+  cbxDestino.ItemIndex := -1;
+  cbxDestino.SetFocus;
 end;
 
-procedure TfrmPrincipal.BitBtnCalcularClick(Sender: TObject);
+procedure TfrmPrincipal.btnCalcularClick(Sender: TObject);
 begin
   Application.MessageBox('Neste momento, o "Composite" (Pacote de Viagem) ' + sLineBreak +
     'irá ler cada Leaf/Folha/Filho (Viagem), executando o "Operation" (CalcularValor)' + sLineBreak +
     'para calcular o valor de cada viagem e, no final, obter a soma total.', 'Atenção', MB_OK + MB_ICONINFORMATION);
 
-  EditTotal.Text :=   FormatFloat('###,##0.00', FPacoteViagem.CalcularValor);
+  edtTotal.Text :=   FormatFloat('###,##0.00', FPacoteViagem.CalcularValor);
 end;
 
-procedure TfrmPrincipal.ComboBoxOrigemChange(Sender: TObject);
+procedure TfrmPrincipal.cbxOrigemChange(Sender: TObject);
 begin
-  ComboBoxDestino.Items := ComboBoxOrigem.Items;
-  ComboBoxDestino.Items.Delete(ComboBoxDestino.Items.IndexOf(ComboBoxOrigem.Text));
+  cbxDestino.Items := cbxOrigem.Items;
+  cbxDestino.Items.Delete(cbxDestino.Items.IndexOf(cbxOrigem.Text));
 end;
 
 end.
