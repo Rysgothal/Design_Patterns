@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/13 14:41:07.000.517,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/13 14:42:34.000.344,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Forms\AbstractFactory.Forms.Principal.dfm</Transaction>
+    <Transaction>2023/11/13 14:42:34.000.344,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Forms\AbstractFactory.Forms.Principal.pas</Transaction>
+    <Transaction>2023/11/13 14:42:55.000.970,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\AbstractFactory.dproj</Transaction>
+    <Transaction>2023/11/13 14:49:39.000.534,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Unit1.pas</Transaction>
+    <Transaction>2023/11/13 14:50:04.000.089,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Unit1.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Interfaces\AbstractFactory.Interfaces.Principal.pas</Transaction>
+    <Transaction>2023/11/13 14:55:31.000.752,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Unit1.pas</Transaction>
+    <Transaction>2023/11/13 14:56:00.000.194,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Unit1.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Classes\AbstractFactory.Classes.Principal.pas</Transaction>
+    <Transaction>2023/11/13 14:59:53.000.191,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Unit1.pas</Transaction>
+    <Transaction>2023/11/13 15:01:06.000.389,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Unit1.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Classes\AbstractFactory.Classes.Base.pas</Transaction>
+    <Transaction>2023/11/13 15:01:54.000.845,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Classes\AbstractFactory.Classes.Base.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Classes\AbstractFactory.Classes.Notbook.pas</Transaction>
+    <Transaction>2023/11/13 15:20:36.000.660,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Classes\AbstractFactory.Classes.Notbook.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Classes\AbstractFactory.Classes.Notebook.pas</Transaction>
+    <Transaction>2023/11/13 15:25:56.000.135,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Unit1.pas</Transaction>
+    <Transaction>2023/11/13 15:26:17.000.072,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Classes\AbstractFactory.Classes.Desktop.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Padrão de Projetos\Abstract Factory\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

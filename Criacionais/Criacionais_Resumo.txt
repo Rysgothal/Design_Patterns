@@ -1,0 +1,42 @@
+[ Abstract Factory ]
+	- Estruturas condicionais = Fábricas
+	- "Transformar" condições (IF's) em Classes/Interfaces
+	- Retornar os dados sem as condições
+	
+[ Builder ] 
+	- O atendente é o Director, que solicita a construção de um objeto (produto);
+	- O lanche é o Product, ou seja, o produto resultante da construção;
+	- O quadro de funcionários que fazem os lanches é o Builder (Interface);
+	- O funcionário que preparou o lanche pedido é o Concrete Builder (objeto).
+	- O encapsulamento refere-se ao fato do Director (atendente) não conhecer 
+	como o produto é fabri cado. Apenas aguarda o produto pronto para ser entregue ao cliente.
+	- Considere que cada representação é um tipo de lanche que o fast-food vende.
+	- Builder tecnicamente funciona da seguinte forma: o Director “solicita” um Product para o Concrete Builder. 
+	Este é responsável por “construir” o produto – no qual denominamos de “complexo”, pois pode ser constituído 
+	de várias partes – e devolver para o Director que, como disse anteriormente, não participa do processo de “construção”.
+	
+	- Criação de Objeto complexo
+	- Separação do código (parte que cria o Objeto e outra que consome o Objeto)
+	- Faz o tratamento de criação de Objetos complexos
+	- Permite a criação do Objeto em etapas
+	- Objeto Final varia de acordo com necessidade
+	- Os produtos finais são os objetos que o cliente deseja consumir
+	- "Director" - Auxilia na ordem de construção
+	
+[ Factory Method ]
+	- Interface para criar um objeto, porém deixar as subclasses decidirem qual classe instanciar
+	- lida com a criação de objetos
+	- Eliminar duplicação de código na criação de Objetos
+	
+[ Prototype ] 
+	- Copiar estado e propriedades de um objeto já existente para um novo objeto
+	- Criar um clone de um objeto, para receber novos valores, sem impactar o Objeto original
+	
+[ Singleton ] 
+	- Objeto global da apliação
+	- Um ponto de acesso único de um Objeto instaciado
+	- Diminuir redundância de criação e liberação de objetos
+	- Facilita no compartilhamento de informações entre telas
+	
+	
+	

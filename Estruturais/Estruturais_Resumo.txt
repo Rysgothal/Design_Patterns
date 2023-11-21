@@ -1,0 +1,34 @@
+[ Adapter ]
+	- Fazer com que duas interfaces se comuniquem entre si
+
+[ Bridge ]
+	- Eliminar multiplas heranças
+	- Reduzir quantidade de classes no projeto
+	- Separar e agrupar responsabilidades
+	- Abstraction: classe abstrata ou interface da abstração principal;
+	- Refined Abstraction: implementação concreta da Abstraction;
+	- Implementor: interface da abstração utilizada pela Abstraction;
+	- Concrete Implementor: implementação concreta da Implementor.
+	
+[ Composite ]
+	- Conseguir executar ações da estrutura inteira, ou somente ações de um Objeto dentro da estrutura
+	
+	Elementos
+	- Component: Representa uma Interface que será implementada pelas classes relacionadas à composição
+	- Operation: Método que será comum entre esse Objetos
+	- Composite: classe concreta de composição que possui uma Lista/Filhos de Objetos 
+	- Leaf: Classes filhas/folhas, que estará atrelada á uma composição
+
+[ Decorator ]
+	- Adicionar funcionalidades extras a um Objeto em tempo de execução
+	
+	Elementos
+	- Component: Interface comum que poderá ser "decorada"
+	- Concrete Component: Classes que implementam Component, que apenas poderão receber funcionalidades extras
+	- Decorator: Classe abstrata que implementa Component, base das "decorações"
+	- Concrete Decorator: Classes que herdam de Decorator e fazem papel de "decoradora"
+
+[ Façade ] 
+	- Encapsular um procedimento complexo
+	- Disponibiliar um método simples para executar
+	
