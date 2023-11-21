@@ -12,10 +12,10 @@ type
     ClientDataSetProdutos: TClientDataSet;
     DBGridClientes: TDBGrid;
     DBGridProdutos: TDBGrid;
-    BitBtnExportarClientesXLS: TBitBtn;
-    BitBtnExportarClientesHTML: TBitBtn;
-    BitBtnExportarProdutosXLS: TBitBtn;
-    BitBtnExportarProdutosHTML: TBitBtn;
+    btnExportarClientesXLS: TBitBtn;
+    btnExportarClientesHTML: TBitBtn;
+    btnExportarProdutosXLS: TBitBtn;
+    btnExportarProdutosHTML: TBitBtn;
     DataSourceClientes: TDataSource;
     DataSourceProdutos: TDataSource;
     ClientDataSetClientesCodigo: TIntegerField;
@@ -28,10 +28,10 @@ type
     LabelClientes: TLabel;
     LabelProdutos: TLabel;
     procedure FormCreate(Sender: TObject);
-    procedure BitBtnExportarClientesXLSClick(Sender: TObject);
-    procedure BitBtnExportarClientesHTMLClick(Sender: TObject);
-    procedure BitBtnExportarProdutosXLSClick(Sender: TObject);
-    procedure BitBtnExportarProdutosHTMLClick(Sender: TObject);
+    procedure btnExportarClientesXLSClick(Sender: TObject);
+    procedure btnExportarClientesHTMLClick(Sender: TObject);
+    procedure btnExportarProdutosXLSClick(Sender: TObject);
+    procedure btnExportarProdutosHTMLClick(Sender: TObject);
   end;
 
 var
@@ -47,7 +47,7 @@ uses
 
 {$R *.dfm}
 
-procedure TfFormulario.BitBtnExportarClientesXLSClick(Sender: TObject);
+procedure TfFormulario.btnExportarClientesXLSClick(Sender: TObject);
 var
   lExportador: IExportador;
 begin
@@ -60,7 +60,7 @@ begin
   end;
 end;
 
-procedure TfFormulario.BitBtnExportarClientesHTMLClick(Sender: TObject);
+procedure TfFormulario.btnExportarClientesHTMLClick(Sender: TObject);
 var
   lExportador: IExportador;
 begin
@@ -75,14 +75,17 @@ end;
 
 procedure TfFormulario.FormCreate(Sender: TObject);
 var
-  lCaminhoAplicacao: string;
+  lCaminho: string;
 begin
-  lCaminhoAplicacao := ExtractFilePath(Application.ExeName);
-  ClientDataSetClientes.LoadFromFile(lCaminhoAplicacao + 'Clientes.xml');
-  ClientDataSetProdutos.LoadFromFile(lCaminhoAplicacao + 'Produtos.xml');
+  lCaminho := ExtractFileDir(Application.ExeName);
+  lCaminho := ExtractFileDir(ExtractFileDir(lCaminho));
+  lCaminho := lCaminho + '\Auxiliar\';
+
+  ClientDataSetClientes.LoadFromFile(lCaminho + 'Clientes.xml');
+  ClientDataSetProdutos.LoadFromFile(lCaminho + 'Produtos.xml');
 end;
 
-procedure TfFormulario.BitBtnExportarProdutosXLSClick(Sender: TObject);
+procedure TfFormulario.btnExportarProdutosXLSClick(Sender: TObject);
 var
   lExportador: IExportador;
 begin
@@ -95,7 +98,7 @@ begin
   end;
 end;
 
-procedure TfFormulario.BitBtnExportarProdutosHTMLClick(Sender: TObject);
+procedure TfFormulario.btnExportarProdutosHTMLClick(Sender: TObject);
 var
   lExportador: IExportador;
 begin

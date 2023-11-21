@@ -88,6 +88,7 @@ var
   lCaminho, lNome: string;
 begin
   lCaminho := ExtractFilePath(Application.ExeName);
+  lNome := pNomeArquivo;
   lNome := Format('%s%s.xls', [lCaminho, lNome]);
   DeleteFile(PWideChar(lNome));
 

@@ -85,23 +85,23 @@ object fFormulario: TfFormulario
         Visible = True
       end>
   end
-  object BitBtnExportarClientesXLS: TBitBtn
+  object btnExportarClientesXLS: TBitBtn
     Left = 8
     Top = 226
     Width = 120
     Height = 25
     Caption = 'Exportar para XLS'
     TabOrder = 1
-    OnClick = BitBtnExportarClientesXLSClick
+    OnClick = btnExportarClientesXLSClick
   end
-  object BitBtnExportarClientesHTML: TBitBtn
+  object btnExportarClientesHTML: TBitBtn
     Left = 136
     Top = 226
     Width = 120
     Height = 25
     Caption = 'Exportar para HTML'
     TabOrder = 2
-    OnClick = BitBtnExportarClientesHTMLClick
+    OnClick = btnExportarClientesHTMLClick
   end
   object DBGridProdutos: TDBGrid
     Left = 424
@@ -140,23 +140,23 @@ object fFormulario: TfFormulario
         Visible = True
       end>
   end
-  object BitBtnExportarProdutosXLS: TBitBtn
+  object btnExportarProdutosXLS: TBitBtn
     Left = 424
     Top = 226
     Width = 120
     Height = 25
     Caption = 'Exportar para XLS'
     TabOrder = 4
-    OnClick = BitBtnExportarProdutosXLSClick
+    OnClick = btnExportarProdutosXLSClick
   end
-  object BitBtnExportarProdutosHTML: TBitBtn
+  object btnExportarProdutosHTML: TBitBtn
     Left = 552
     Top = 226
     Width = 120
     Height = 25
     Caption = 'Exportar para HTML'
     TabOrder = 5
-    OnClick = BitBtnExportarProdutosHTMLClick
+    OnClick = btnExportarProdutosHTMLClick
   end
   object ClientDataSetClientes: TClientDataSet
     PersistDataPacket.Data = {
