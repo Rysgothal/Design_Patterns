@@ -12,10 +12,6 @@ type
     function ConsultarTotal: string;
   end;
 
-  IFactoryMethod = interface
-    function ConsultarPrazo(const pPrazo: TModoPrazo): ITipoPrazo;
-  end;
-
 implementation
 
 end.

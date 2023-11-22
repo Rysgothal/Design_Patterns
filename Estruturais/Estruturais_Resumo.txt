@@ -32,3 +32,13 @@
 	- Encapsular um procedimento complexo
 	- Disponibiliar um método simples para executar
 	
+[ Flyweight ]
+	- Melhorar o desempenho 
+	- Reduzir Objetos criados
+	- Compartilhar Objetos com caracteristicas similares
+	- "Lista de Singleton", a diferença é que o Flyweight possibilita trabalhar com vários Objetos
+	
+	Elementos
+	- Intrínsecas: Propriedades imutáveis
+	- Extrísecas: Propriedades variáveis que podem receber novos valores
+	

@@ -3,7 +3,7 @@ unit FactoryMethod.Classes.CriadorConcreto;
 interface
 
 uses
-  FactoryMethod.Interfaces.Produto;
+  FactoryMethod.Interfaces.Produto, FactoryMethod.Interfaces.Criador;
 
 type
   TFabricaPrazos = class(TInterfacedObject, IFactoryMethod)

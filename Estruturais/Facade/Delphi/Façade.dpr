@@ -2,7 +2,7 @@ program Façade;
 
 uses
   Vcl.Forms,
-  Façade.Forms.Principal in 'Forms\Façade.Forms.Principal.pas' {Form1},
+  Façade.Forms.Principal in 'Forms\Façade.Forms.Principal.pas' {frmPrincipal},
   Façade.Classes.SubSystemCotacaoDolar in 'Classes\Façade.Classes.SubSystemCotacaoDolar.pas',
   Façade.Classes.WSDL_BCB in 'Classes\Façade.Classes.WSDL_BCB.pas',
   Façade.Classes.SubSystemCalculoLoja in 'Classes\Façade.Classes.SubSystemCalculoLoja.pas',
@@ -14,6 +14,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
   Application.Run;
 end.

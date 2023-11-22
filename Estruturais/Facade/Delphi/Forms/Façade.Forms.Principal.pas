@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Datasnap.DBClient, Vcl.StdCtrls, Vcl.Grids, Vcl.DBGrids, Vcl.Buttons;
 
 type
-  TForm1 = class(TForm)
+  TfrmPrincipal = class(TForm)
     lblCliente: TLabel;
     lblProduto: TLabel;
     lblHistorico: TLabel;
@@ -35,7 +35,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmPrincipal: TfrmPrincipal;
 
 implementation
 
@@ -44,7 +44,7 @@ uses
 
 {$R *.dfm}
 
-procedure TForm1.btnCalcularValorDaVendaClick(Sender: TObject);
+procedure TfrmPrincipal.btnCalcularValorDaVendaClick(Sender: TObject);
 var
   lFidelidade: SmallInt;
   lPreco: Real;
@@ -74,7 +74,7 @@ begin
   end;
 end;
 
-procedure TForm1.FormCreate(Sender: TObject);
+procedure TfrmPrincipal.FormCreate(Sender: TObject);
 var
   lCaminho: string;
 begin
@@ -86,7 +86,7 @@ begin
   ClientDataSetProdutos.LoadFromFile(lCaminho + '\Produtos.xml');
 end;
 
-procedure TForm1.ClientDataSetClientesFidelidadeGetText(Sender: TField; var Text: String; DisplayText: Boolean);
+procedure TfrmPrincipal.ClientDataSetClientesFidelidadeGetText(Sender: TField; var Text: String; DisplayText: Boolean);
 begin
   case Sender.AsInteger of
     0: Text := 'Nenhum';
