@@ -8,9 +8,9 @@ uses
 
 type
   TForm1 = class(TForm)
-    LabelCliente: TLabel;
-    LabelProduto: TLabel;
-    LabelHistorico: TLabel;
+    lblCliente: TLabel;
+    lblProduto: TLabel;
+    lblHistorico: TLabel;
     btnCalcularValorDaVenda: TBitBtn;
     DBGridClientes: TDBGrid;
     DBGridProdutos: TDBGrid;
@@ -26,7 +26,9 @@ type
     DataSourceClientes: TDataSource;
     DataSourceProdutos: TDataSource;
     procedure btnCalcularValorDaVendaClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
+    procedure ClientDataSetClientesFidelidadeGetText(Sender: TField; var Text: String; DisplayText: Boolean);
     { Private declarations }
   public
     { Public declarations }
@@ -44,9 +46,10 @@ uses
 
 procedure TForm1.btnCalcularValorDaVendaClick(Sender: TObject);
 var
-  lFidelidade: smallint;
-  lPreco: real;
+  lFidelidade: SmallInt;
+  lPreco: Real;
   lFacade: TFacade;
+  lCaminho: string;
 begin
   Application.MessageBox('Neste momento, o Façade será instanciado para:' + sLineBreak +
              ' - Consultar a cotação do dólar no WebService;' + sLineBreak +
@@ -61,12 +64,35 @@ begin
   try
     lFacade.CalcularValorDeVenda(lFidelidade, lPreco);
 
-    memHistorico.Lines.LoadFromFile(ExtractFilePath(ParamStr(0)) + 'Historico.txt');
+    lCaminho := ExtractFileDir(Application.ExeName);
+    lCaminho := ExtractFileDir(ExtractFileDir(lCaminho)) + '\Auxiliar\';
+    memHistorico.Lines.LoadFromFile(lCaminho + 'Historico.txt');
     memHistorico.Lines.Add(EmptyStr);
     Perform(EM_SCROLL, SB_LINEDOWN, 0);
   finally
-    // libera o objeto da memória
     FreeAndNil(lFacade);
+  end;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+var
+  lCaminho: string;
+begin
+  lCaminho := ExtractFileDir(Application.ExeName);
+  lCaminho := ExtractFileDir(ExtractFileDir(lCaminho)) + '\Auxiliar';
+  DeleteFile(lCaminho + '\Historico.txt');
+
+  ClientDataSetClientes.LoadFromFile(lCaminho + '\Clientes.xml');
+  ClientDataSetProdutos.LoadFromFile(lCaminho + '\Produtos.xml');
+end;
+
+procedure TForm1.ClientDataSetClientesFidelidadeGetText(Sender: TField; var Text: String; DisplayText: Boolean);
+begin
+  case Sender.AsInteger of
+    0: Text := 'Nenhum';
+    1: Text := 'Bronze';
+    2: Text := 'Prata';
+    3: Text := 'Ouro';
   end;
 end;
 

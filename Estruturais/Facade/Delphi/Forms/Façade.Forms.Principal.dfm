@@ -10,9 +10,10 @@ object Form1: TForm1
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 15
-  object LabelCliente: TLabel
+  object lblCliente: TLabel
     Left = 8
     Top = 4
     Width = 119
@@ -25,7 +26,7 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object LabelProduto: TLabel
+  object lblProduto: TLabel
     Left = 354
     Top = 4
     Width = 126
@@ -38,7 +39,7 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object LabelHistorico: TLabel
+  object lblHistorico: TLabel
     Left = 158
     Top = 172
     Width = 359
