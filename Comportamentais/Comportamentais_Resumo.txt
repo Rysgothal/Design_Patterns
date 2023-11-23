@@ -1,0 +1,4 @@
+[ Chain of Responsibility ]
+	- Baixo acoplamento e alta coesão
+	- Remover fortes dependencias 
+	- Responsabilidade única 
