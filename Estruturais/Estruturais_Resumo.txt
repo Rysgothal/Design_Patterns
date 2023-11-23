@@ -42,3 +42,7 @@
 	- Intrínsecas: Propriedades imutáveis
 	- Extrísecas: Propriedades variáveis que podem receber novos valores
 	
+[ Proxy ]
+	- Intermediário para controlar os acessos a um objeto
+	- Indicado para classes extensas ou complexas
+	- reduz carga gerenciando as demandas da classe
