@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/11/23 17:11:17.740,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:15:40.855,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/11/23 17:17:28.809,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Classes\Command.Classes.Reciver.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/11/23 17:24:16.978,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Command.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/11/23 17:26:20.625,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:26:44.300,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Classes\Command.Classes.Invoker.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:27:11.094,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:27:57.505,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Interfaces\Command.Interfaces.Command.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:30:18.012,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:30:39.393,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Classes\Command.Classes.Processos.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:31:26.378,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:31:55.392,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Classes\Command.Classes.Programas.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:33:47.210,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:34:03.920,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Classes\Command.Classes.VariaveisAmbiente.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Unit1.pas</Transaction>
+    <Transaction>2023/11/23 17:36:49.329,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Forms\uFormulario.pas</Transaction>
+    <Transaction>2023/11/23 17:37:07.456,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Forms\Command.Forms.Principal.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Forms\uFormulario.pas</Transaction>
+    <Transaction>2023/11/23 17:37:07.456,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Forms\Command.Forms.Principal.dfm=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Command\Delphi\Forms\uFormulario.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

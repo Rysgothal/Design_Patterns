@@ -2,3 +2,8 @@
 	- Baixo acoplamento e alta coesão
 	- Remover fortes dependencias 
 	- Responsabilidade única 
+	
+[ Command ]
+	- Encapsular requisições como Objeto
+	- "Empilhar" vários comandos e executá-los de uma só vez somente quando necessário
+	- Comandos atuam como "conexões" entre o cliente e as ações desejadas do Objeto
