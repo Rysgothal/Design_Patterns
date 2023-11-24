@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/11/24 15:29:28.175,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 15:29:48.878,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Classes\Iterator.Classes.Cliente.pas</Transaction>
+    <Transaction>2023/11/24 15:29:53.160,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 15:30:08.069,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Classes\Iterator.Classes.Iterator.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 15:32:59.237,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Classes\Iterator.Interfaces.Iterator.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Classes\Iterator.Classes.Iterator.pas</Transaction>
+    <Transaction>2023/11/24 15:33:54.389,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Classes\Iterator.Interfaces.Iterator.pas=</Transaction>
+    <Transaction>2023/11/24 15:34:34.255,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Interfaces\Iterator.Interfaces.Iterator.pas</Transaction>
+    <Transaction>2023/11/24 15:36:49.363,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Iterator.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/11/24 15:36:57.368,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 15:38:13.813,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Interfaces\Iterator.Interfaces.Aggregate.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 15:42:20.197,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 15:42:40.406,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Classes\Iterator.Classes.ConcreteIterator.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 15:52:44.735,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 15:55:50.299,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Classes\Iterator.Classes.ConcreteAggregateCSV.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 16:06:05.945,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 16:06:30.595,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Classes\Iterator.Classes.ConcreteAggregateXML.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Unit1.pas</Transaction>
+    <Transaction>2023/11/24 16:21:25.771,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Forms\View.Formulario.pas</Transaction>
+    <Transaction>2023/11/24 16:21:45.091,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Forms\Iterator.Forms.Principal.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Forms\View.Formulario.pas</Transaction>
+    <Transaction>2023/11/24 16:21:45.091,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Forms\Iterator.Forms.Principal.dfm=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Iterator\Forms\View.Formulario.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

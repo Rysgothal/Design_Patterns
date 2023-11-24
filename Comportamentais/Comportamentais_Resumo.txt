@@ -16,4 +16,10 @@
 		NonTerminalExpression: É composto por outras expressões para interpretar o contexto
 	
 	- TerminalExpression são como variáveis e NonTerminalExpression são semelhantes a operadores lógicos.
-		
+
+[ Iterator ]
+	- Poder "transformar" uma classe em uma estrutura que permita a iteração dos dados processador por ela
+	- Disponibilizar uma forma de percorrer uma lista(ou coleção) sem a necessidade de conhecer a representação dos dados
+	- Padronizar mecanismo de navegação
+	- imparcialidade dos tipos de dados carregados
+	
