@@ -7,3 +7,13 @@
 	- Encapsular requisições como Objeto
 	- "Empilhar" vários comandos e executá-los de uma só vez somente quando necessário
 	- Comandos atuam como "conexões" entre o cliente e as ações desejadas do Objeto
+	
+[ Interpreter ] 
+	- Fornecer um dado de entrada e solicitar que o padrão de projeto execute as interpretações
+	
+	Elementos:
+		TerminalExpression: Representa expressões independentes que podem avaliar a entrada de modo imediato.
+		NonTerminalExpression: É composto por outras expressões para interpretar o contexto
+	
+	- TerminalExpression são como variáveis e NonTerminalExpression são semelhantes a operadores lógicos.
+		
