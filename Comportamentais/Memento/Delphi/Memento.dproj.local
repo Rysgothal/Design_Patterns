@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/27 15:16:59.000.888,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/27 15:21:19.000.728,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Forms\View.Formulario.pas</Transaction>
+    <Transaction>2023/11/27 15:21:39.000.418,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Pattern.Memento.pas</Transaction>
+    <Transaction>2023/11/27 15:21:39.000.448,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Pattern.Originator.pas</Transaction>
+    <Transaction>2023/11/27 15:21:39.000.398,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Pattern.Caretaker.pas</Transaction>
+    <Transaction>2023/11/27 15:21:51.000.377,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Memento.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/11/27 15:25:43.000.860,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Pattern.Caretaker.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Memento.Classes.Caretaker.pas</Transaction>
+    <Transaction>2023/11/27 15:26:02.000.883,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Pattern.Memento.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Memento.Classes.Originator.pas</Transaction>
+    <Transaction>2023/11/27 15:26:23.000.691,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Pattern.Originator.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Memento.Classes.pas</Transaction>
+    <Transaction>2023/11/27 15:26:28.000.314,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Memento.Classes.Originator1=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Memento.Classes.Originator1.Originator1</Transaction>
+    <Transaction>2023/11/27 15:26:37.000.416,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Memento.Classes.Originator.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Memento.Classes.Memento.pas</Transaction>
+    <Transaction>2023/11/27 15:26:41.000.345,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Memento.Classes.Originator1.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Classes\Memento.Classes.Originator.pas</Transaction>
+    <Transaction>2023/11/27 15:26:54.000.085,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Forms\View.Formulario.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Forms\Memento.Forms.Principal.pas</Transaction>
+    <Transaction>2023/11/27 15:26:54.000.085,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Forms\View.Formulario.dfm=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Memento\Delphi\Forms\Memento.Forms.Principal.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Classes"/>
+    <File Path="Classes\Memento.Classes.Caretaker.pas"/>
+    <File Path="Classes\Memento.Classes.Memento.pas"/>
+    <File Path="Classes\Memento.Classes.Originator.pas"/>
+    <File Path="Forms"/>
+    <File Path="Forms\Memento.Forms.Principal.pas"/>
+    <File Path="Forms\Memento.Forms.Principal.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

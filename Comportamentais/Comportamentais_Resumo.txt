@@ -33,3 +33,8 @@
 		Concrete Mediator: Classe concreta que implementa a Interface Mediator;
 		Colleague: Interface que define os métodos referente às “intenções” dos objetos;
 		Concrete Colleague: Classe concreta que implementa a Interface Colleage.
+		
+[ Memento ]
+	- Permitir se lembre dos estados anteriores de um Objeto.
+	- Poder restaurar um estado anterior do Objeto
+	- Ctrl+Z, RollBack ...
