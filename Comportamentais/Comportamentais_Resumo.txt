@@ -38,3 +38,14 @@
 	- Permitir se lembre dos estados anteriores de um Objeto.
 	- Poder restaurar um estado anterior do Objeto
 	- Ctrl+Z, RollBack ...
+	
+[ Observer ]
+	- Permitir o Objeto receber dados ou notificação, sem saber quem foi o emissor.
+	- Baixo acoplamento
+	- Fortes dependencias não estabelecidas
+	
+	Elementos:
+		Subject: Interface que define a assinatura de métodos das classes que serão observáveis;
+		Concrete Subject: implementação da Interface Subject;
+		Observer: Interface que define a assinatura de métodos das classes que serão observadoras;
+		Concrete Observer: implementação da Interface Observer;
