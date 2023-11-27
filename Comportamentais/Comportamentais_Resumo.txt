@@ -23,3 +23,13 @@
 	- Padronizar mecanismo de navegação
 	- imparcialidade dos tipos de dados carregados
 	
+[ Mediator ] 
+	- Mecanismo de encapsulamento das interações que ocorrem entre Objetos diferentes
+	- Baixo nivel de acoplamento
+	- Adequado para cenários em que muitas classes referenciam muitas classes
+	
+	Elementos:
+		Mediator: Interface que define os métodos de comunicação entre os objetos;
+		Concrete Mediator: Classe concreta que implementa a Interface Mediator;
+		Colleague: Interface que define os métodos referente às “intenções” dos objetos;
+		Concrete Colleague: Classe concreta que implementa a Interface Colleage.
