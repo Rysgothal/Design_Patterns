@@ -71,3 +71,20 @@
 	- Com o Strategy, implementamos algoritmos que geram resultados semelhantes. Já com o Template Method, os resultados são sempre diferentes;
 	- Classe base que executa ações compartilhadas por todas as subclasses, 
 	- Diferente do Strategy, trabalha-se com Interfaces e cada classe possui um algoritmo específico.
+	
+[ Visitor ]
+	- Criação de classes de estruturas e classes de operações de forma isolada
+	- Objetos são "visitados" pelas operações
+	- Cada visita pode haver alterações internas (novos valores, processar dados, ...)
+	
+	Elementos:
+		Element: são as classes de estruturas
+		Visitor: São os "visitantes" que executam operações
+		Concrete Element: Implementa a Interface Element
+		Concrete Visitor: Implementa a Interface Visitor
+		Object Structure: Conjunto de Objetos da classe Concrete Element no qual os "visitantes" executarão suas operações
+	
+	- Na Interface Visitor, há um método chamado Visit para cada Concrete Element existente
+	- Na Interface Element, declara um método chamado Accept, que recebe um Visitor como parâmetro para executar o método Visit. (sobrecarga em ação)
+	- O próprio Visitor identificará o método sobrecarregado a ser executado de acordo com o Element que o chamou. 
+	
