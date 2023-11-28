@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/11/22 16:37:04.035,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/11/22 16:37:30.460,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2023/11/22 16:39:43.835,D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Interfaces\Flyweight.Interfaces.Flyweight.pas=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2023/11/22 16:41:37.404,D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Flyweight.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2023/11/22 16:42:17.554,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Unit1.pas</Transaction>
-    <Transaction>2023/11/22 16:42:47.934,D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Classes\Flyweight.Classes.ConcreteFlyweight.pas=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Unit1.pas</Transaction>
-    <Transaction>2023/11/22 16:50:14.493,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Unit1.pas</Transaction>
-    <Transaction>2023/11/22 16:50:29.954,D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Classes\Flyweight.Classes.FlyweightFactory.pas=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Unit1.pas</Transaction>
-    <Transaction>2023/11/22 16:55:16.691,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Forms\uFormulario.pas</Transaction>
+	<Transactions>
+    <Transaction>2023/11/22 16:37:04.000.035,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/22 16:37:30.000.460,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/11/22 16:39:43.000.835,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Interfaces\Flyweight.Interfaces.Flyweight.pas</Transaction>
+    <Transaction>2023/11/22 16:41:37.000.404,C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Flyweight.dproj</Transaction>
+    <Transaction>2023/11/22 16:42:17.000.554,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Unit1.pas</Transaction>
+    <Transaction>2023/11/22 16:42:47.000.934,D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Unit1.pas=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Classes\Flyweight.Classes.ConcreteFlyweight.pas</Transaction>
+    <Transaction>2023/11/22 16:50:14.000.493,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Unit1.pas</Transaction>
+    <Transaction>2023/11/22 16:50:29.000.954,D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Unit1.pas=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Classes\Flyweight.Classes.FlyweightFactory.pas</Transaction>
+    <Transaction>2023/11/22 16:55:16.000.691,=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Forms\uFormulario.pas</Transaction>
+    <Transaction>2023/11/28 09:36:27.762,D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Delphi\Forms\Flyweigth.Forms.Principal.dfm=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Delphi\Forms\uFormulario.dfm</Transaction>
+    <Transaction>2023/11/28 09:36:27.762,D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Delphi\Forms\Flyweigth.Forms.Principal.pas=D:\GitHub_Lucas\Design_Patterns\Estruturais\Flyweight\Delphi\Forms\uFormulario.pas</Transaction>
   </Transactions>
 </BorlandProject>

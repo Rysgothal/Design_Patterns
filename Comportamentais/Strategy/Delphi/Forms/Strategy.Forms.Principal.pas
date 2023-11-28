@@ -1,4 +1,4 @@
-unit View.Formulario;
+unit Strategy.Forms.Principal;
 
 {
   Exemplo de Strategy com Delphi

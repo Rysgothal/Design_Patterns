@@ -3,7 +3,7 @@ unit Observer.Interfaces.Notificacao;
 interface
 
 uses
-  Model.Notificacao;
+  Observer.Classes.Notificacao;
 
 type
   IObserver = interface

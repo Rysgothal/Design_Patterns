@@ -4,7 +4,7 @@ uses
   Vcl.Forms,
   Observer.Interfaces.Notificacao in 'Interfaces\Observer.Interfaces.Notificacao.pas',
   Observer.Interfaces.Subject in 'Interfaces\Observer.Interfaces.Subject.pas',
-  Model.Notificacao in 'Classes\Model.Notificacao.pas',
+  Observer.Classes.Notificacao in 'Classes\Observer.Classes.Notificacao.pas',
   Observer.Forms.ConcreteSubject in 'Forms\Observer.Forms.ConcreteSubject.pas' {FrameCadastroOperacoes: TFrame},
   Observer.Forms.ObserverAgrupamento in 'Forms\Observer.Forms.ObserverAgrupamento.pas' {FrameAgrupamento: TFrame},
   Observer.Forms.ObserverLog in 'Forms\Observer.Forms.ObserverLog.pas' {FrameLog: TFrame},

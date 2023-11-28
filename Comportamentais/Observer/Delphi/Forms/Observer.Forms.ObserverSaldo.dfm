@@ -8,12 +8,11 @@ object FrameSaldo: TFrameSaldo
   object lblTitulo: TLabel
     Left = 0
     Top = 0
-    Width = 300
+    Width = 100
     Height = 15
     Align = alTop
     Alignment = taCenter
     Caption = 'Balan'#231'o Financeiro'
-    ExplicitWidth = 100
   end
   object lblCreditos: TLabel
     Left = 6

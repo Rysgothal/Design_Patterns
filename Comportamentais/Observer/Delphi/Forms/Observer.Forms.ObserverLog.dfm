@@ -8,12 +8,11 @@ object FrameLog: TFrameLog
   object lblTitulo: TLabel
     Left = 0
     Top = 0
-    Width = 300
+    Width = 95
     Height = 15
     Align = alTop
     Alignment = taCenter
     Caption = 'Log de Opera'#231#245'es'
-    ExplicitWidth = 95
   end
   object memLog: TMemo
     Left = 0

@@ -5,7 +5,7 @@ uses
   Flyweight.Interfaces.Flyweight in 'Interfaces\Flyweight.Interfaces.Flyweight.pas',
   Flyweight.Classes.ConcreteFlyweight in 'Classes\Flyweight.Classes.ConcreteFlyweight.pas',
   Flyweight.Classes.FlyweightFactory in 'Classes\Flyweight.Classes.FlyweightFactory.pas',
-  uFormulario in 'Forms\uFormulario.pas' {frmPrincipal};
+  Flyweigth.Forms.Principal in 'Forms\Flyweigth.Forms.Principal.pas' {frmPrincipal};
 
 {$R *.res}
 

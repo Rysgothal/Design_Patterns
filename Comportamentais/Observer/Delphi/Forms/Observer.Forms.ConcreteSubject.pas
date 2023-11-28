@@ -42,7 +42,7 @@ type
 implementation
 
 uses
-  Model.Notificacao;
+  Observer.Classes.Notificacao;
 
 {$R *.dfm}
 

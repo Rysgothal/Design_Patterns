@@ -1,4 +1,4 @@
-unit uFormulario;
+unit Flyweigth.Forms.Principal;
 
 {
   Exemplo de Flyweight com Delphi

@@ -103,7 +103,7 @@
         <DCCReference Include="Interfaces\Flyweight.Interfaces.Flyweight.pas"/>
         <DCCReference Include="Classes\Flyweight.Classes.ConcreteFlyweight.pas"/>
         <DCCReference Include="Classes\Flyweight.Classes.FlyweightFactory.pas"/>
-        <DCCReference Include="Forms\uFormulario.pas">
+        <DCCReference Include="Forms\Flyweigth.Forms.Principal.pas">
             <Form>frmPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
@@ -936,10 +936,10 @@
                 </DeployClass>
                 <ProjectRoot Platform="OSX32" Name="$(PROJECTNAME).app"/>
                 <ProjectRoot Platform="OSX64" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Win32" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="Android64" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="OSXARM64" Name="$(PROJECTNAME).app"/>
                 <ProjectRoot Platform="Android" Name="$(PROJECTNAME)"/>
-                <ProjectRoot Platform="Win32" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="Win64" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="Linux64" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="iOSDevice32" Name="$(PROJECTNAME).app"/>

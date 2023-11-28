@@ -8,7 +8,7 @@ uses
   Strategy.Classes.ConcreteStrategyRegExLib in 'Classes\Strategy.Classes.ConcreteStrategyRegExLib.pas',
   Strategy.Classes.Context in 'Classes\Strategy.Classes.Context.pas',
   WebService.RegExLib in 'Classes\WebService.RegExLib.pas',
-  View.Formulario in 'Forms\View.Formulario.pas' {frmPrincipal};
+  Strategy.Forms.Principal in 'Forms\Strategy.Forms.Principal.pas' {frmPrincipal};
 
 {$R *.res}
 

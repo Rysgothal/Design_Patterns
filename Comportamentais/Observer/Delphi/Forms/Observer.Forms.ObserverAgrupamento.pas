@@ -5,8 +5,8 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
   Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
-  Data.DB, Vcl.Grids, Vcl.DBGrids, Datasnap.DBClient, Model.Notificacao,
-  Vcl.ExtCtrls, Observer.Interfaces.Notificacao;
+  Data.DB, Vcl.Grids, Vcl.DBGrids, Datasnap.DBClient,
+  Vcl.ExtCtrls, Observer.Interfaces.Notificacao, Observer.Classes.Notificacao;
 
 type
   TFrameAgrupamento = class(TFrame, IObserver)
