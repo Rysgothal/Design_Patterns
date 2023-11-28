@@ -64,3 +64,10 @@
 	- Estratégias de execução
 	- Exemplos: Pagamentos (cartão de crédito, débito ou voucher), Login com multiplas contas
 	- Por mais que tenha rotina diferente, o objetivo final será o mesmo
+	
+[ Template Method ]
+	- Sequencia de passos
+	- As subclasses podem alterar o comportamento de alguns trechos do método desde que a sequencia continua a mesma
+	- Com o Strategy, implementamos algoritmos que geram resultados semelhantes. Já com o Template Method, os resultados são sempre diferentes;
+	- Classe base que executa ações compartilhadas por todas as subclasses, 
+	- Diferente do Strategy, trabalha-se com Interfaces e cada classe possui um algoritmo específico.
