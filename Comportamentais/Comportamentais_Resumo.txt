@@ -49,3 +49,18 @@
 		Concrete Subject: implementação da Interface Subject;
 		Observer: Interface que define a assinatura de métodos das classes que serão observadoras;
 		Concrete Observer: implementação da Interface Observer;
+	
+[ State ]
+	- Desfazer o alinhamento condicional
+	- Trocar o estado com regras estabelecidas
+	
+	Elementos: 
+		State: Interface que declara os métodos que poderão ser executados pelos estados do objeto;
+		Concrete State: implementa a Interface State para definir cada estado possível do objeto;
+		Context: representa o estado atual do objeto, invocando seus métodos.
+		
+[ Strategy ]
+	- Selecionar e usar um algoritmo em tempo de execução
+	- Estratégias de execução
+	- Exemplos: Pagamentos (cartão de crédito, débito ou voucher), Login com multiplas contas
+	- Por mais que tenha rotina diferente, o objetivo final será o mesmo

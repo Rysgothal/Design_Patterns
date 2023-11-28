@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/27 17:16:32.000.675,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/27 17:42:10.000.297,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Interfaces\Pattern.Strategy.pas</Transaction>
+    <Transaction>2023/11/27 17:42:22.000.436,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Pattern.ConcreteStrategyMailBoxLayer.pas</Transaction>
+    <Transaction>2023/11/27 17:42:22.000.501,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Pattern.Context.pas</Transaction>
+    <Transaction>2023/11/27 17:42:22.000.516,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\WebService.RegExLib.pas</Transaction>
+    <Transaction>2023/11/27 17:42:22.000.456,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Pattern.ConcreteStrategyRegExLib.pas</Transaction>
+    <Transaction>2023/11/27 17:42:22.000.426,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Pattern.ConcreteStrategyDLL.pas</Transaction>
+    <Transaction>2023/11/27 17:42:41.000.047,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Strategy.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/11/27 17:43:34.000.247,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Interfaces\Strategy.Interfaces.Strategy.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Interfaces\Pattern.Strategy.pas</Transaction>
+    <Transaction>2023/11/27 17:54:44.000.065,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Pattern.ConcreteStrategyDLL.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Strategy.Classes.pas</Transaction>
+    <Transaction>2023/11/27 17:54:48.000.089,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Strategy.Classes.StrategyDLL=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Strategy.Classes.StrategyDLL.StrategyDLL</Transaction>
+    <Transaction>2023/11/27 17:55:05.000.287,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Pattern.ConcreteStrategyMailBoxLayer.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Strategy.Classes.ConcreteStrategyMailBoxLayer.pas</Transaction>
+    <Transaction>2023/11/27 17:55:20.000.736,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Pattern.ConcreteStrategyRegExLib.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Strategy.Classes.ConcreteStrategyRegExLib.pas</Transaction>
+    <Transaction>2023/11/27 17:55:31.000.739,D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Pattern.Context.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Classes\Strategy.Classes.Context.pas</Transaction>
+    <Transaction>2023/11/27 17:58:36.000.121,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\Strategy\Delphi\Forms\View.Formulario.pas</Transaction>
+  </Transactions>
+</BorlandProject>

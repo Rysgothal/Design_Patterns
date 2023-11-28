@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/11/27 16:28:16.000.017,=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/27 16:42:49.000.906,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.StateBronze.pas</Transaction>
+    <Transaction>2023/11/27 16:42:49.000.890,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.StateBase.pas</Transaction>
+    <Transaction>2023/11/27 16:42:49.000.952,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.StatePrata.pas</Transaction>
+    <Transaction>2023/11/27 16:42:49.000.923,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.StateOuro.pas</Transaction>
+    <Transaction>2023/11/27 16:42:49.000.851,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.Context.pas</Transaction>
+    <Transaction>2023/11/27 16:43:02.000.566,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Helpers\Utils.Enumerated.pas</Transaction>
+    <Transaction>2023/11/27 16:43:27.000.408,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Helpers\State.Helpers.Enumerados.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Helpers\Utils.Enumerated.pas</Transaction>
+    <Transaction>2023/11/27 16:43:36.000.258,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\State.dproj=C:\Users\Lucas Frade\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/11/27 16:44:02.000.110,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.StatePrata.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\State.Classes.StatePrata.pas</Transaction>
+    <Transaction>2023/11/27 16:44:18.000.096,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.StateOuro.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\State.Classes.StateOuro.pas</Transaction>
+    <Transaction>2023/11/27 16:44:26.000.960,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.StateBronze.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\State.Classes.StateBronze.pas</Transaction>
+    <Transaction>2023/11/27 16:44:36.000.161,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.StateBase.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\State.Classes.StateBase.pas</Transaction>
+    <Transaction>2023/11/27 16:44:45.000.599,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\Pattern.Context.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Classes\State.Classes.Context.pas</Transaction>
+    <Transaction>2023/11/27 16:45:07.000.560,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Interfaces\Pattern.State.pas</Transaction>
+    <Transaction>2023/11/27 16:45:21.000.866,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Interfaces\Pattern.State.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Interfaces\State.Interfaces.State.pas</Transaction>
+    <Transaction>2023/11/27 16:57:25.559,=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Forms\View.Formulario.pas</Transaction>
+    <Transaction>2023/11/27 16:57:44.666,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Forms\State.Forms.Principal.pas=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Forms\View.Formulario.pas</Transaction>
+    <Transaction>2023/11/27 16:57:44.666,D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Forms\State.Forms.Principal.dfm=D:\GitHub_Lucas\Design_Patterns\Comportamentais\State\Delphi\Forms\View.Formulario.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
