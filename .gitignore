@@ -6,3 +6,5 @@ __recovery
 .vscode
 *.local
 *.identcache
+.local
+.identcache
